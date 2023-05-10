@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e8b8af-145f-4f77-adeb-762e8b12f113" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/locker/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/locker/java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locker/model/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/locker/model/Locker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/member/manageMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/manageMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/member/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/member/model/bibleUniStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/model/bibleUniStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/manageMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/manageMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/model/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/model/bibleUniStudents.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +60,24 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="member.main" />
       <module name="LockerLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LockerLibrary" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,7 +94,8 @@
       <workItem from="1683608341010" duration="79000" />
       <workItem from="1683608438430" duration="106000" />
       <workItem from="1683611987092" duration="116000" />
-      <workItem from="1683612108993" duration="1162000" />
+      <workItem from="1683612108993" duration="10704000" />
+      <workItem from="1683725636334" duration="2338000" />
     </task>
     <servers />
   </component>

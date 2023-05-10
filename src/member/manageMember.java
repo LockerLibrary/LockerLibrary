@@ -2,15 +2,22 @@ package member;
 
 import member.model.*;
 
-public class manageMember {
-    static Member member = new bibleUniStudents();
+import java.lang.reflect.Type;
 
+public class manageMember <T> {
+    private Member member;
 
-    public int login(Member member) {
+    public void setMember(Member object) {
+        this.member = object;
+    }
+
+    public T returnName(T bs) {
         // 로그인 과정
+        return bs;
+    }
 
-        int pk = 0;
-        return pk;
+    public T returnCode(T number){
+        return number;
     }
 
 //    public List<Locker> 남은 사물함 조회() {
