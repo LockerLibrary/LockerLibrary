@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e8b8af-145f-4f77-adeb-762e8b12f113" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/bible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/manageMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockerLibrary/member/manageMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/model/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockerLibrary/member/model/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/model/bibleUniStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/member/manageMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/manageMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/model/bibleUniStudents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/model/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/model/bibleUniStudent.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.test">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="member.main" />
       <module name="LockerLibrary" />
@@ -73,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="member.test" />
+      <module name="LockerLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -95,7 +115,7 @@
       <workItem from="1683608438430" duration="106000" />
       <workItem from="1683611987092" duration="116000" />
       <workItem from="1683612108993" duration="10704000" />
-      <workItem from="1683725636334" duration="2338000" />
+      <workItem from="1683725636334" duration="4778000" />
     </task>
     <servers />
   </component>

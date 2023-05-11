@@ -1,14 +1,12 @@
 package member;
 
-import member.model.*;
-
-import java.lang.reflect.Type;
-
+import member.model.Member;
 public class manageMember <T> {
     private Member member;
 
     public void setMember(Member object) {
         this.member = object;
+        System.out.println(member.getter());
     }
 
     public T returnName(T bs) {
