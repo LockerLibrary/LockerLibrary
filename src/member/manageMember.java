@@ -1,8 +1,8 @@
 /*
  * @ 해결과제 :
  * 
- * 1. lockers, occupiedLokers를 따로 분리해서 저장 -> (일단 싱글톤 객체, 나중되면 서버에 저장)
- * 2. locker를 main에서 일일히 만들지 말고, 미리 만들어둔 KBU건물 객체가 있으면 좋겠다!
+ * 1. allLockers, occupiedLockers를 따로 분리해서 저장 -> (일단 싱글톤 객체, 나중되면 서버에 저장)
+ * 2. locker를 main에서 일일히 만들지 말고, 미리 만들어둔 KBU 사물함 목록이 있으면 좋겠다.
  * 
 */
 package member;
