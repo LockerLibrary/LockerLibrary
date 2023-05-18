@@ -2,7 +2,7 @@ package locker.model;
 
 public class Locker {
     private int lockNum;
-//    private int buildingNum;
+    // private int buildingNum;
     private String buildingName;
 
     public Locker (int lockNum, String buildingName) {
@@ -10,6 +10,7 @@ public class Locker {
         this.buildingName = buildingName;
     }
 
+    // getter
     public int getLockNum() {
         return lockNum;
     }
