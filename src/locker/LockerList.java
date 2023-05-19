@@ -1,4 +1,4 @@
-package locker;
+package com.example.LockerLibrary.src.locker;
 
 import locker.model.Locker;
 
