@@ -1,12 +1,11 @@
-package member;
+package com.example.LockerLibrary.src.member;
 
-import member.model.Member;
-import locker.model.Locker;
-import locker.LockerList;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import com.example.LockerLibrary.src.locker.LockerList;
+import locker.model.Locker;
+import com.example.LockerLibrary.src.member.model.Member;
 
 /**
  * <p>테스트 클래스.</p>
