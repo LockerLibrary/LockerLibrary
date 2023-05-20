@@ -6,16 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c8e8b8af-145f-4f77-adeb-762e8b12f113" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/bible.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/manageMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockerLibrary/member/manageMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/model/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LockerLibrary/member/model/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LockerLibrary/member/model/bibleUniStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locker/LockerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/locker/LockerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locker/java.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/member/manageMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/manageMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/model/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/model/bibleUniStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/model/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +111,9 @@
       <workItem from="1683611987092" duration="116000" />
       <workItem from="1683612108993" duration="10704000" />
       <workItem from="1683725636334" duration="4778000" />
+      <workItem from="1684498721830" duration="1014000" />
+      <workItem from="1684503690904" duration="157000" />
+      <workItem from="1684589087165" duration="3510000" />
     </task>
     <servers />
   </component>

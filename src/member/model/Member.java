@@ -12,10 +12,13 @@ import java.util.List;
  * <p>ex) 변수 이름: name, gender, phoneNumber</p>
  * @param <T>
  */
+
 public abstract class Member<T> {
     private T member1;
     private T member2;
     private T member3;
+    private String username;
+    private String password;
 
     public Member(T member1, T member2, T member3) {
         this.member1 = member1;

@@ -10,7 +10,7 @@ import java.util.HashMap;
 /*
     전체 사물함 목록 & 예약한 사물함 목록에 싱글톤 적용
     서버가 있다면, 서버에 저장하고 불러와서 사용??
-*/ 
+*/
 public class LockerList {
     private static List<Locker> allLockers = null;                  // 전체 locker 목록
     private static HashMap<Integer, Locker> occupiedLockers = null; // 예약된 locker 목록
