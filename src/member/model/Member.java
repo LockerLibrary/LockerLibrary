@@ -1,4 +1,4 @@
-package com.example.LockerLibrary.src.member.model;
+package member.model;
 
 import java.util.ArrayList;
 import java.util.List;

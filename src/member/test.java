@@ -1,9 +1,9 @@
-package com.example.LockerLibrary.src.member;
+package member;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.example.LockerLibrary.src.locker.LockerList;
+import locker.LockerList;
 import locker.model.Locker;
 import com.example.LockerLibrary.src.member.model.Member;
 

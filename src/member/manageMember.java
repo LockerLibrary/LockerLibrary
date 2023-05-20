@@ -5,11 +5,11 @@
  * 2. locker를 main에서 일일히 만들지 말고, 미리 만들어둔 KBU 사물함 목록이 있으면 좋겠다.
  * 
 */
-package com.example.LockerLibrary.src.member;
+package member;
 
-import com.example.LockerLibrary.src.member.model.Member;
+import member.model.Member;
 import locker.model.Locker;
-import com.example.LockerLibrary.src.locker.LockerList;
+import locker.LockerList;
 
 import java.util.Map;
 import java.util.HashMap;

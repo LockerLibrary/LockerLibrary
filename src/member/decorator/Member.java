@@ -1,4 +1,4 @@
-package com.example.LockerLibrary.src.member.decorator;
+package member.decorator;
 
 import java.util.ArrayList;
 import java.util.List;
