@@ -17,11 +17,11 @@ public class test {
     public static void main(String[] args) {
 
         // 전체 locker 등록 -> 전역객체 allLockers에
-        Locker g1 = new Locker(10, "갈멜관");
-        Locker g2 = new Locker(20, "갈멜관");
-        Locker g3 = new Locker(30, "갈멜관");
-        Locker b1 = new Locker(10, "복음관");
-        Locker b2 = new Locker(20, "복음관");
+        Locker g1 = new Locker(01, "갈멜관");
+        Locker g2 = new Locker(02, "갈멜관");
+        Locker g3 = new Locker(03, "갈멜관");
+        Locker b1 = new Locker(01, "복음관");
+        Locker b2 = new Locker(02, "복음관");
         List<Locker> allLockers = Arrays.asList(g1, g2, g3, b1, b2); // 예약 가능한 사물함 목록 입력 (단점 일일히 입력한다, 입력해주는 다른 클래스가 필요한가???)
         
         LockerList.setAllLockers(allLockers);
