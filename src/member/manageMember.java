@@ -19,7 +19,7 @@ import java.util.ArrayList;
 public class manageMember<T> {
     private Member member;
 
-    private boolean loggedIn;
+    private boolean loggedIn = false;
     private int loginAttempts;
     private Map<String, String> userCredentials; // 사용자 계정 정보 저장
 
@@ -34,48 +34,42 @@ public class manageMember<T> {
         this.member = object;
         System.out.println(member.getter());
     }
-    
-    // ??
-    public T returnName(T bs) {
-        return bs;
-    }
-    public T returnCode(T number) {
-        return number;
-    }
-
 
     /*로그인 기능 구현*/
     // 회원가입
-    public void signUp(String username, String password) {
+    public int signUp(String username, String password) {
         if (loggedIn) {
             System.out.println("로그인 상태에서는 회원가입이 불가능합니다.");
-            return;
+            return -1;
         }
         if (userCredentials.containsKey(username)) {
             System.out.println("이미 존재하는 사용자명입니다.");
-            return;
+            return -1;
         }
 
         userCredentials.put(username, password);
         System.out.println("회원가입이 완료되었습니다.");
+        return 1;
     }
 
     // 로그인
-    public void login(String username, String password) {
+    public int login(String username, String password) {
         // 추가적인 로그인 조건을 확인
         if (loggedIn) {
             System.out.println("이미 로그인되어 있습니다. 로그아웃을 실행한 후에 다시 로그인 시도해주세요.");
-            return;
+            return -1;
         }
         // 실제 로그인 기능 구현
         if (userCredentials.containsKey(username) && userCredentials.get(username).equals(password)) {
             loggedIn = true;
             loginAttempts = 0;
             System.out.println("로그인 성공!");
+            return 1;
         } else {
             loggedIn = false;
             loginAttempts++;
             System.out.println("로그인 실패!");
+            return -1;
         }
     }
 

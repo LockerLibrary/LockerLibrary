@@ -1,11 +1,12 @@
 package member;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import locker.LockerList;
 import locker.model.Locker;
-import com.example.LockerLibrary.src.member.model.Member;
+import member.model.Member;
 
 /**
  * <p>테스트 클래스.</p>
@@ -93,5 +94,17 @@ public class test {
 class library extends Member {
     public library(String name, int studentCode, String major) {
         super(name, studentCode, major);
+    }
+}
+
+class db {
+    public void createLocker() {
+        List list = new ArrayList();
+
+        for (int i = 1; i <= 100; i++){
+            list.add(new Locker(i, "갈멜관"));
+            list.add(new Locker(i+100, "일립관"));
+        }
+        List<Locker> allLockers = list; // 라커 더미데이터 정의
     }
 }
