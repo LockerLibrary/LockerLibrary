@@ -34,17 +34,6 @@ public abstract class Member<T> {
         return list;
     }
 
-    // getter (함수명으로 속성을 식별할 수 없는 문제)
-    // public T getMember1() {
-    //     return member1;
-    // }
-    // public T getMember2() {
-    //     return member2;
-    // }
-    // public T getMember3() {
-    //     return member3;
-    // }
-
     public String getUsername() {
         return username;
     }
@@ -62,4 +51,3 @@ public abstract class Member<T> {
     }
 
 }
-

@@ -1,12 +1,8 @@
 package member;
 
-import java.util.List;
-import java.util.ArrayList;
-
 import member.model.Member;
 
 import locker.LockerDB;
-import locker.model.Locker;
 import locker.manageLocker;
 
 /**
@@ -24,7 +20,7 @@ public class test {
 
         //DB 생성
         LockerDB db = LockerDB.getInstance();
-        db.createDummyLocker(); // 각 건물(G, Mo, Mi, B, I)별로 1~100번 사물함 생성
+        db.addDummyLocker(); // 각 건물(G, Mo, Mi, B, I)별로 1~100번 사물함 생성
 
         // member, manageMember, manageLocker 설정
         manageMember mg1 = new manageMember();
@@ -47,6 +43,7 @@ public class test {
         ml2.setmanageMember(mg2);
         ml3.setmanageMember(mg3);
 
+        // Member의 username, password 입력
         member1.setUsername("gusdn123");
         member1.setPassword("password1");
         member2.setUsername("wncks456");
@@ -55,7 +52,7 @@ public class test {
         member3.setPassword("password3");
 
 
-        // 로그인 기능 테스트
+        /* 로그인 기능 테스트 */ 
         mg1.signUp(member1); // 회원가입
         mg2.signUp(member2);
 
@@ -73,7 +70,7 @@ public class test {
         mg1.logout(); // 로그아웃
 
         
-        //예약 기능 테스트
+        /* 예약 기능 테스트 */
         System.out.println("----------------------------");
         System.out.println(ml1.check_unoccupiedLocker()); // 비어있는 locker 목록 확인 (사물함 객체 담김)
         
@@ -84,7 +81,7 @@ public class test {
         ml1.check_locker(201804027);
 
         // 예약
-        System.out.println("\n예약 test ----------------");
+        System.out.println("\n예약 ----------------");
         mg1.login("gusdn123","password1" );  //로그인 성공
         ml1.reserve_locker(201804027, db.searchLocker("G-10")); // l1 예약
         ml1.reserve_locker(201804027, db.searchLocker("G-20")); // 예약 실패 (이미 예약한 사물함 존재)
@@ -93,18 +90,19 @@ public class test {
         ml2.reserve_locker(202101031, db.searchLocker("G-10")); // 예약 실패 (다른사람이 예약한 사물함)
 
         // 예약 확인
-        System.out.println("\n예약 확인 test ----------------");
+        System.out.println("\n예약 확인 ----------------");
         ml2.check_locker(202101031); // 예약 확인 실패 (예약된 사물함이 없음)
 
         ml2.reserve_locker(202101031, db.searchLocker("Mi-10")); // b2 예약
         ml2.check_locker(202101031); // 예약 확인 성공
 
         // 예약 취소
-        System.out.println("\n예약 취소 test ----------------");
+        System.out.println("\n예약 취소 ----------------");
         ml2.cancel_locker(202101031); // 예약 취소 성공
         ml2.cancel_locker(202101031); // 예약 취소 실패 (예약된 사물함이 없음)
     }
 }
+
 
 // Member 클래스를 상속한 샘플 클래스
 class library extends Member {

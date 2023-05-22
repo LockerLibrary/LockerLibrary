@@ -73,5 +73,3 @@ public class manageMember<T> {
         return loggedIn;
     }
 }
-
-

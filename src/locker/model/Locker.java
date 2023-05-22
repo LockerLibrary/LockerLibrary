@@ -1,7 +1,7 @@
 package locker.model;
 
 public class Locker {
-    private String lockerPk; // = "건물코드-사물함번호" -> 자동 생성되도록 함
+    private String lockerPk; // "건물코드-사물함번호" (건물명, 사물함 번호로 자동생성 가능)
     private String buildingName;
     private int lockerNum;
 
