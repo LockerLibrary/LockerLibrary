@@ -1,3 +1,4 @@
+package member;
 import member.model.Member;
 import member.manageMember;
 import locker.LockerDB;
